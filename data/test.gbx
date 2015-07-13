@@ -1,0 +1,5 @@
+SPHERE --name particle1 --diameter 0.4 --colour 255 0 0
+SPHERE --name particle2 --diameter 0.2 --colour 255 255 0
+BOX --cubic 1.0 1.0 1.0
+particle1 0.0 0.0 0.0
+particle2 0.3 -0.1 -0.1

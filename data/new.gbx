@@ -1,0 +1,18 @@
+# molecule definition
+MOL --name compound --size 2 --colour 1 0 1
+
+# atom definition
+SPHERE --name atom1 --diameter 1.0 --colour 0 0 1
+SPHERE --name atom2 --diameter 0.8 --colour 1 0 1
+
+# simulation box
+BOX --cubic 5.0 5.0 5.0
+
+# data
+1 compound 1 atom1 1 0.0 0.0 0.0
+2 compound 1 atom2 2 0.1 0.1 0.1
+3 compound 2 atom1 1 1.0 1.0 1.0
+4 compound 2 atom2 2 1.1 1.1 1.1
+
+# bonds
+BOND --molecule compound --atom 1-2

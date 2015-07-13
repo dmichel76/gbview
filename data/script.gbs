@@ -1,0 +1,10 @@
+# test script
+colour background rgb 1.0 1.0 1.0
+colour console rgb 0.0 0.0 0.0
+colour info black
+colour box rgb 0.0 0.0 0.0
+rotate y 20
+rotate x 20
+colour 0 rgb 0.0 0.0 0.8
+# show 0 dot
+slicing x -0.4 0.0
